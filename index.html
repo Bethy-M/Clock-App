@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="colorO">Clock App</h1>
+    <div id="kkk">
+      <div class="section one">
+        <h2 class="colorO">Digital Clock</h2>
+        <div id="clock" class="display large"></div>
+      </div>
+
+      <div class="section two">
+        <h2 class="colorO">StopWatch</h2>
+        <div id="stopwatch" class="display colorO">00:00:00</div>
+        <button id="startStopwatch">Start</button>
+        <button id="stopStopwatch">Stop</button>
+        <button id="resetStopwatch">Reset</button>
+      </div>
+    </div>
+    <div id="kuku">
+      <div class="section three">
+        <h2 class="colorO">Countdown Timer</h2>
+        <input type="number" id="countdownInput" placeholder="Seconds" />
+        <button id="startCountdown">Start Countdown</button>
+        <div class="colorO" id="countdownDisplay" class="display">--:--</div>
+      </div>
+
+      <div class="section four">
+        <h2 class="colorO">Alarm</h2>
+        <input type="time" id="alarmTime" />
+        <input type="text" id="alarmMessage" placeholder="message" />
+        <button id="setAlarm">Set Alarm</button>
+        <div id="alarmK"></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
